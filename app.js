@@ -4,7 +4,7 @@ const request = require('request');
 const https = require('https');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const apiKey = "0f391543d53c2883bf69c5a918c713b1-us6";
 const audienceID = "526ba95e64";
